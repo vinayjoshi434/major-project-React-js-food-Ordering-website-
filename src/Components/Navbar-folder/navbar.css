@@ -1,0 +1,51 @@
+.Navbar-cont {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    border-radius: 10px;
+    align-items: center;
+    height: 80px;
+
+}
+
+.left img {
+    height: 65px;
+    width: 65px;
+}
+
+.middle ul {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.middle ul li {
+    list-style: none;
+    padding: 35px;
+    font-weight: 600;
+    color: rgb(62, 134, 64)
+}
+
+.middle ul li:hover {
+    font-size: 1.01rem;
+}
+
+ul button {
+    border: none;
+    background: transparent;
+    background-color: bisque;
+    color: rgb(96, 88, 236);
+    border-radius: 23px;
+    padding: 5px;
+    width: 100px;
+    transition: 0.2s;
+}
+
+ul button:hover {
+    background-color: rgb(220, 129, 113);
+}
+
+.right img {
+    margin: 0 20px;
+}
+

@@ -1,0 +1,129 @@
+.cont{
+ position:relative;
+ margin:10px 0;
+  display:flex;
+ justify-content: flex-start;
+}
+.cont-left{
+  position:relative;
+
+}
+.cont-left p{
+position:absolute;
+left:360px;
+bottom:235px;
+color:antiquewhite;
+font-weight: 500;
+font-size:40px;
+}
+.cont-right{
+margin:5px;
+}
+.login-cont{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+.toggle{
+display:flex;
+justify-content: space-between;
+border:3px solid green;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+box-shadow: 0 0 5px 5px #B1F7A6
+}
+.toggle button{
+  padding :10px 20px;
+  margin:0 20px;
+  width:150px;
+  border-radius: 15px;;
+  color:rgb(43, 229, 229);
+  background:transparent;
+  border:none;
+  
+ 
+}
+.toggle button:hover{
+  color:rgb(8, 126, 210);
+ 
+}
+.option{
+  margin:12px 0; 
+  
+  width:100%;
+ text-align: center;
+}
+ .option strong{
+  font-weight: 450;
+  font-size: small;
+ }
+ .media{
+  margin:10px 0;
+ }
+.media i{
+  margin:0 15px;
+}
+.media i:hover{
+  font-size:1.5rem;
+}
+.form-box{
+  display:flex;
+  height:315px;
+
+  background-color:#ccffff;
+  border-radius:15px;
+}
+.input-feild1{
+ display:flex;
+ align-items: center;
+ padding:10px;
+
+ margin:10px 20px;
+
+  
+}
+input-feild2{
+  display:flex;
+ align-items: center;
+  padding:10px;
+  margin:10px 20px;
+  width:100%
+
+}
+input{
+  background: transparent;
+  margin:0 10px;
+  border-bottom:1px solid #999;
+  outline:none;
+
+}
+.link{
+  display:flex;
+  width:354px;
+  justify-content: space-between;
+  margin:20px 20px;
+}
+.checkbox-div{
+  display:flex;
+  align-items: center;
+}
+.checkbox{
+  margin-bottom: 0;
+}
+.forget-pass{
+  color:chocolate
+}
+.forget-pass:hover{
+  color:tomato
+}
+.login-btn{
+  width:50%;
+  border-radius: 10px;
+  padding:10px;;
+  background-color:rgb(218, 243, 56);
+
+}
+.login-btn:hover{
+  background-color: #12f4f4;
+}

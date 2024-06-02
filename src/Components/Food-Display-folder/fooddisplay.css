@@ -1,0 +1,16 @@
+.food-display {
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:auto;
+  
+   
+}
+
+.tagline{
+    color:rgb(110, 71, 19);
+    width:100%;
+    font-size: 30px;
+    margin:10px;
+}

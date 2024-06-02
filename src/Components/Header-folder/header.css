@@ -1,0 +1,37 @@
+
+
+
+.header-cont {
+    background: url('../../utils/Assets/header_img.png') no-repeat;
+    background-size: contain;
+position:relative;
+    height:38vw;
+    margin:5px 0;
+
+}
+.header-content{
+position :absolute;
+display:flex;
+align-items: flex-start;
+max-width: 50%;
+flex-direction: column;
+bottom:20%;
+left:2vw;
+gap:10px ;
+color:white
+}
+
+.header-content strong{
+   font-size: 30px;
+}
+.header-content button{
+    border-radius: 50px;
+    border:none;
+    padding:10px;
+    color:rgb(192, 67, 10);
+    background-color: bisque;
+
+}
+.header-content button:hover{
+    background-color: rgb(230, 181, 121);
+}

@@ -1,0 +1,34 @@
+.contact-cont{
+    display:flex;
+}
+.cc-left{
+    position:relative;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.banner-overflow{
+   font-weight: 450;
+   font-style: italic;
+   font-size:medium;
+    width:200px;
+    position:absolute;
+    bottom:68px;
+    left:416px;
+    text-wrap: wrap;;
+    color:rgb(48, 48, 155)
+}
+
+
+.cc-right{
+    width: 90%;
+    text-align: center;
+    margin:10px 0;
+
+}
+.form{
+  background-color:azure
+}
+.cont-input-feild{
+    margin:20px 0;
+    
+}

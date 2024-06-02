@@ -1,0 +1,49 @@
+.main img{
+    width:100%;
+    position:relative;
+    border-top-left-radius:5%;
+    border-bottom-right-radius: 5%;
+    margin:12px  0;
+}
+.Ab-text{
+    text-align: center;
+    width:40%;
+    height:65%;
+   color:antiquewhite;
+   outline:solid;
+  
+   font-weight: 300;
+    position :absolute;
+    bottom: 0px;
+    left: 500px;
+    border-radius: 15px;
+    padding:10px;
+   
+}
+.Ab-text strong{
+    font-size:40px;
+    color:cyan;
+    text-shadow:2px 2px 5px rgb(60, 0, 255)
+}
+.Ab-text p{
+    font-size: larger;
+}
+.Ab-text .ct-btn{
+    position: absolute;
+    bottom:22px;
+    left :380px;
+    background-color: tomato;
+    font-weight: 400;
+    padding:5px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;;
+    outline: none;
+    box-shadow: 5px 5px 4px rgb(53, 177, 53);
+
+}
+.Ab-text .ct-btn:hover{
+ background-color:rgb(246, 62, 30);
+ font-size:1.02rem;
+
+
+}
