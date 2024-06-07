@@ -1,0 +1,53 @@
+.cont{
+    position:relative;
+    margin:10px 0;
+     display:flex;
+    justify-content: flex-start;
+   }
+   .cont-left{
+     position:relative;
+   
+   }
+   .cont-left p{
+   position:absolute;
+   left:360px;
+   bottom:235px;
+   color:antiquewhite;
+   font-weight: 500;
+   font-size:40px;
+   }
+   .cont-right{
+   margin:5px;
+   }
+   .login-cont{
+     width:100%;
+     display:flex;
+     flex-wrap: wrap;
+     
+   }
+   .toggle{
+   display:flex;
+   justify-content: space-between;
+   border:3px solid green;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   box-shadow: 0 0 5px 5px #B1F7A6
+   }
+   .toggle button{
+     padding :10px 20px;
+     margin:0 20px;
+     width:150px;
+     border-radius: 15px;;
+     color:rgb(43, 229, 229);
+     background:transparent;
+     border:none;
+     
+    
+   }
+   .toggle button:hover{
+     color:rgb(8, 126, 210);
+    
+   }
+   .option{
+     margin:12px 0; 
+   }
