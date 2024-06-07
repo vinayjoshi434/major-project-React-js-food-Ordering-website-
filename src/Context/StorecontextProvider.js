@@ -16,13 +16,27 @@ const StoreContextProvider = ({ children }) => {
         }
     }
 
-    const removeFromcart=(itemid)=>{
-setcartitems({...cartitems,[itemid]:cartitems[itemid]-1})
+    const removeFromcart = (itemid) => {
+        setcartitems({ ...cartitems, [itemid]: cartitems[itemid] - 1 })
     }
 
-    useEffect(()=>{
-        console.log(cartitems)}
-        ,[cartitems])
+
+    const getTotalcartAmount = () => {
+        let totalAmount = 0;
+        for (const item in cartitems) {
+
+            if (cartitems[item] > 0) {
+                let iteminfo = food_list.find((product) => product._id === item);
+                totalAmount += iteminfo.price * cartitems[item];
+            }
+        }
+return totalAmount
+
+    }
+    useEffect(() => {
+        console.log(cartitems)
+    }
+        , [cartitems])
 
 
 
@@ -32,7 +46,8 @@ setcartitems({...cartitems,[itemid]:cartitems[itemid]-1})
         addTocart,
         removeFromcart,
         cartitems,
-        setcartitems
+        setcartitems,
+        getTotalcartAmount
 
     };
 

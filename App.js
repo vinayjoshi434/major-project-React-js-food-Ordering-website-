@@ -9,6 +9,7 @@ import Login from './src/Components/LogIN-folder/Login';
 import Register from './src/Components/Register-folder/Register';
 import About from './src/Components/About-folder/About';
 import Contact from './src/Components/contact-folder/Contact';
+import Cart from './src/Components/Cart-folder/Cart';
 
     const AppLayout = () => {
         return (
@@ -51,6 +52,10 @@ import Contact from './src/Components/contact-folder/Contact';
             {
                path:'/contact',
                element:<Contact/>
+            },
+            {
+               path:'/cart',
+               element:<Cart/>
             }
 
    
